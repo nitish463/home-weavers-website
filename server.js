@@ -129,4 +129,43 @@ const serveStatic = (request, response) => {
   const requestedPath = url.pathname === "/" ? "/index.html" : url.pathname;
   const filePath = path.normalize(path.join(root, requestedPath));
 
-  if (!filePath.startsWith(root) || path
+  if (!filePath.startsWith(root) || path.basename(filePath).startsWith(".")) {
+    response.writeHead(403);
+    response.end("Forbidden");
+    return;
+  }
+
+  fs.readFile(filePath, (error, content) => {
+    if (error) {
+      response.writeHead(404, { "Content-Type": "text/plain; charset=utf-8" });
+      response.end("Not found");
+      return;
+    }
+    response.writeHead(200, { "Content-Type": mimeTypes[path.extname(filePath)] || "application/octet-stream" });
+    response.end(content);
+  });
+};
+
+http
+  .createServer((request, response) => {
+    if (request.method === "GET" && request.url.startsWith("/api/health")) {
+      handleHealth(request, response);
+      return;
+    }
+    if (request.method === "POST" && request.url.startsWith("/api/contact")) {
+      handleContact(request, response);
+      return;
+    }
+    if (request.url.startsWith("/api/openai")) {
+      handleIntegrationPlaceholder("ChatGPT/OpenAI")(request, response);
+      return;
+    }
+    if (request.url.startsWith("/api/shipstation")) {
+      handleIntegrationPlaceholder("ShipStation")(request, response);
+      return;
+    }
+    serveStatic(request, response);
+  })
+  .listen(port, host, () => {
+    console.log(`Home Weavers running at http://localhost:${port}`);
+  });
