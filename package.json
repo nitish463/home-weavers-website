@@ -1,0 +1,14 @@
+{
+  "name": "home-weavers-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Home Weavers ecommerce storefront and admin backend shell.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check script.js && node --check admin.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

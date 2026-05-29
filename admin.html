@@ -1,0 +1,886 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Home Weavers Admin</title>
+    <link rel="stylesheet" href="styles.css?v=cart-signin-note-v1">
+    <link rel="stylesheet" href="admin.css?v=cart-signin-note-v1">
+  </head>
+  <body class="admin-page">
+    <header class="admin-header">
+      <a class="brand" data-brand-name="Home Weavers Inc." href="index.html" aria-label="Back to storefront"><img src="assets/home-weavers-logo.jpeg" alt="Home Weavers Inc."><span class="admin-brand-text">Admin</span></a>
+      <div class="admin-actions">
+        <a class="admin-link" href="assets/home-weavers-admin-guide.pdf" target="_blank" rel="noopener">Admin guide PDF</a>
+        <a class="admin-link" href="index.html">View store</a>
+        <button type="button" data-reset-store>Reset demo data</button>
+      </div>
+    </header>
+
+    <nav class="admin-nav" aria-label="Admin pages">
+      <a class="active" href="#dashboard" data-admin-section-target="dashboard">Dashboard</a>
+      <a href="#branding" data-admin-section-target="branding">Branding</a>
+      <a href="#homepage" data-admin-section-target="homepage">Homepage</a>
+      <a href="#pages" data-admin-section-target="pages">Content pages</a>
+      <a href="#categories" data-admin-section-target="categories">Categories</a>
+      <a href="#coupons" data-admin-section-target="coupons">Coupons</a>
+      <a href="#campaigns" data-admin-section-target="campaigns">Email campaigns</a>
+      <a href="#products" data-admin-section-target="products">Products</a>
+      <a href="#orders" data-admin-section-target="orders">Orders</a>
+    </nav>
+
+    <main class="admin-shell">
+      <section class="admin-hero active" data-admin-section="dashboard">
+        <div>
+          <p class="section-kicker">Dashboard</p>
+          <h1>Manage your ecommerce site.</h1>
+          <p>Track demo orders, visits, revenue, catalog health, and jump into the exact area you want to change.</p>
+          <div class="guide-card">
+            <div>
+              <strong>Admin operating guide</strong>
+              <p>Includes what every admin section controls, how to add products, and exact image size recommendations for banners, products, logo, social blocks, and category frames.</p>
+            </div>
+            <a href="assets/home-weavers-admin-guide.pdf" target="_blank" rel="noopener">Open PDF guide</a>
+          </div>
+        </div>
+        <div class="admin-stats">
+          <div>
+            <strong data-dashboard-orders>0</strong>
+            <span>Orders received</span>
+          </div>
+          <div>
+            <strong data-dashboard-visits>0</strong>
+            <span>Site visits</span>
+          </div>
+          <div>
+            <strong data-dashboard-revenue>$0</strong>
+            <span>Business generated</span>
+          </div>
+          <div>
+            <strong data-stat-products>0</strong>
+            <span>Products</span>
+          </div>
+          <div>
+            <strong data-stat-stock>0</strong>
+            <span>Total stock</span>
+          </div>
+          <div>
+            <strong data-stat-sale>0</strong>
+            <span>On sale</span>
+          </div>
+          <div>
+            <strong data-dashboard-conversion>0%</strong>
+            <span>Order conversion</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="admin-panel" data-admin-section="branding">
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">Branding</p>
+            <h2>Logo and search</h2>
+          </div>
+          <button type="button" data-save-settings>Save settings</button>
+        </div>
+        <form class="settings-form" data-settings-form>
+          <label>
+            Brand name
+            <input name="brandName" type="text">
+          </label>
+          <label>
+            Logo URL
+            <input name="logoUrl" type="url">
+          </label>
+          <label class="wide-field">
+            Upload logo
+            <input name="logoUpload" type="file" accept="image/*" data-logo-upload>
+          </label>
+          <label>
+            Search placeholder
+            <input name="searchPlaceholder" type="text">
+          </label>
+          <label>
+            Search words
+            <textarea name="searchKeywords" rows="3" placeholder="comforter, rugs, towels"></textarea>
+          </label>
+          <label>
+            Promo bar
+            <input name="promo" type="text">
+          </label>
+        </form>
+      </section>
+
+      <section class="admin-panel" data-admin-section="homepage">
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">Homepage</p>
+            <h2>Hero slides and banners</h2>
+          </div>
+          <button type="button" data-save-settings>Save homepage</button>
+        </div>
+        <form class="settings-form" data-banner-form>
+          <label>
+            Slide 1 eyebrow
+            <input name="heroSlide1Eyebrow" type="text">
+          </label>
+          <label>
+            Slide 1 title
+            <input name="heroSlide1Title" type="text">
+          </label>
+          <label>
+            Slide 1 text
+            <textarea name="heroSlide1Text" rows="3"></textarea>
+          </label>
+          <label>
+            Slide 1 image
+            <input name="heroSlide1Image" type="url">
+          </label>
+          <label>
+            Slide 1 button
+            <input name="heroSlide1Button" type="text">
+          </label>
+          <label>
+            Slide 1 link
+            <input name="heroSlide1Url" type="text">
+          </label>
+          <label>
+            Slide 2 eyebrow
+            <input name="heroSlide2Eyebrow" type="text">
+          </label>
+          <label>
+            Slide 2 title
+            <input name="heroSlide2Title" type="text">
+          </label>
+          <label>
+            Slide 2 text
+            <textarea name="heroSlide2Text" rows="3"></textarea>
+          </label>
+          <label>
+            Slide 2 image
+            <input name="heroSlide2Image" type="url">
+          </label>
+          <label>
+            Slide 2 button
+            <input name="heroSlide2Button" type="text">
+          </label>
+          <label>
+            Slide 2 link
+            <input name="heroSlide2Url" type="text">
+          </label>
+          <label>
+            Slide 3 eyebrow
+            <input name="heroSlide3Eyebrow" type="text">
+          </label>
+          <label>
+            Slide 3 title
+            <input name="heroSlide3Title" type="text">
+          </label>
+          <label>
+            Slide 3 text
+            <textarea name="heroSlide3Text" rows="3"></textarea>
+          </label>
+          <label>
+            Slide 3 image
+            <input name="heroSlide3Image" type="url">
+          </label>
+          <label>
+            Slide 3 button
+            <input name="heroSlide3Button" type="text">
+          </label>
+          <label>
+            Slide 3 link
+            <input name="heroSlide3Url" type="text">
+          </label>
+          <label>
+            Top banner image
+            <input name="bannerImage" type="url">
+          </label>
+          <label>
+            Top banner title
+            <input name="bannerTitle" type="text">
+          </label>
+          <label>
+            Top banner eyebrow
+            <input name="bannerEyebrow" type="text">
+          </label>
+          <label>
+            Top banner button
+            <input name="bannerButton" type="text">
+          </label>
+          <label>
+            Top banner link
+            <input name="bannerUrl" type="text">
+          </label>
+          <label>
+            Second banner image
+            <input name="secondaryBannerImage" type="url">
+          </label>
+          <label>
+            Second banner title
+            <input name="secondaryBannerTitle" type="text">
+          </label>
+          <label>
+            Second banner eyebrow
+            <input name="secondaryBannerEyebrow" type="text">
+          </label>
+          <label>
+            Second banner button
+            <input name="secondaryBannerButton" type="text">
+          </label>
+          <label>
+            Second banner link
+            <input name="secondaryBannerUrl" type="text">
+          </label>
+          <div class="wide-field category-image-editor">
+            <div>
+              <p class="section-kicker">Main page category frames</p>
+              <h3>Explore Now images</h3>
+              <p>Change the image used for each category box on the homepage. Recommended size: 900 x 1100 px, vertical product or room photo.</p>
+            </div>
+            <div class="category-image-manager" data-category-image-manager></div>
+          </div>
+          <div class="wide-field category-image-editor">
+            <div>
+              <p class="section-kicker">Social strip</p>
+              <h3>Social image blocks</h3>
+              <p>Change the four images and links in the wide social media strip near the bottom of the homepage. Recommended size: 900 x 420 px.</p>
+            </div>
+            <label>
+              Facebook image
+              <input name="socialFacebookImage" type="url">
+            </label>
+            <label>
+              Facebook link
+              <input name="socialFacebookUrl" type="text">
+            </label>
+            <label>
+              Pinterest image
+              <input name="socialPinterestImage" type="url">
+            </label>
+            <label>
+              Pinterest link
+              <input name="socialPinterestUrl" type="text">
+            </label>
+            <label>
+              Houzz image
+              <input name="socialHouzzImage" type="url">
+            </label>
+            <label>
+              Houzz link
+              <input name="socialHouzzUrl" type="text">
+            </label>
+            <label>
+              Instagram image
+              <input name="socialInstagramImage" type="url">
+            </label>
+            <label>
+              Instagram link
+              <input name="socialInstagramUrl" type="text">
+            </label>
+          </div>
+          <div class="wide-field category-image-editor">
+            <div>
+              <p class="section-kicker">Homepage text</p>
+              <h3>About, signup, and footer</h3>
+            </div>
+            <label>
+              Homepage about title
+              <input name="homeAboutTitle" type="text">
+            </label>
+            <label class="wide-field">
+              Homepage about paragraph 1
+              <textarea name="homeAboutText" rows="3"></textarea>
+            </label>
+            <label class="wide-field">
+              Homepage about paragraph 2
+              <textarea name="homeAboutText2" rows="3"></textarea>
+            </label>
+            <label>
+              Signup title
+              <input name="exclusiveTitle" type="text">
+            </label>
+            <label>
+              Signup button
+              <input name="exclusiveButton" type="text">
+            </label>
+            <label class="wide-field">
+              Signup text
+              <textarea name="exclusiveText" rows="2"></textarea>
+            </label>
+            <label>
+              Signup email placeholder
+              <input name="exclusivePlaceholder" type="text">
+            </label>
+            <label>
+              Footer copyright
+              <input name="footerCopyright" type="text">
+            </label>
+            <label>
+              Customer service title
+              <input name="footerServiceTitle" type="text">
+            </label>
+            <label>
+              Customer service phone
+              <input name="footerPhone" type="text">
+            </label>
+            <label class="wide-field">
+              Customer service hours/email
+              <textarea name="footerHours" rows="3"></textarea>
+            </label>
+            <div class="wide-field footer-link-editor">
+              <div>
+                <p class="section-kicker">Footer links</p>
+                <h3>Enable, disable, and edit footer links</h3>
+                <p>Turn links on or off without deleting them. Test links are placeholders for future pages.</p>
+              </div>
+              <div class="footer-link-manager" data-footer-link-manager></div>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <section class="admin-panel" data-admin-section="pages">
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">Pages</p>
+            <h2>Content pages</h2>
+          </div>
+          <button type="button" data-save-settings>Save pages</button>
+        </div>
+        <form class="settings-form" data-page-form>
+          <div class="wide-field category-image-editor">
+            <div>
+              <p class="section-kicker">About Us</p>
+              <h3>Hero, story, video, and cards</h3>
+            </div>
+            <label>
+              About eyebrow
+              <input name="aboutHeroKicker" type="text">
+            </label>
+          </div>
+          <label>
+            About page hero title
+            <input name="aboutHeroTitle" type="text">
+          </label>
+          <label class="wide-field">
+            About page hero text
+            <textarea name="aboutHeroText" rows="3"></textarea>
+          </label>
+          <label>
+            Story eyebrow
+            <input name="aboutStoryKicker" type="text">
+          </label>
+          <label>
+            Story title
+            <input name="aboutStoryTitle" type="text">
+          </label>
+          <label>
+            Embedded video URL
+            <input name="aboutVideoUrl" type="url">
+          </label>
+          <label class="wide-field">
+            Story paragraph 1
+            <textarea name="aboutStoryText" rows="3"></textarea>
+          </label>
+          <label class="wide-field">
+            Story paragraph 2
+            <textarea name="aboutStoryText2" rows="3"></textarea>
+          </label>
+          <label>
+            About card 1 title
+            <input name="aboutCard1Title" type="text">
+          </label>
+          <label class="wide-field">
+            About card 1 text
+            <textarea name="aboutCard1Text" rows="2"></textarea>
+          </label>
+          <label>
+            About card 2 title
+            <input name="aboutCard2Title" type="text">
+          </label>
+          <label class="wide-field">
+            About card 2 text
+            <textarea name="aboutCard2Text" rows="2"></textarea>
+          </label>
+          <label>
+            About card 3 title
+            <input name="aboutCard3Title" type="text">
+          </label>
+          <label class="wide-field">
+            About card 3 text
+            <textarea name="aboutCard3Text" rows="2"></textarea>
+          </label>
+
+          <div class="wide-field category-image-editor">
+            <div>
+              <p class="section-kicker">Contact Us</p>
+              <h3>Hero, contact cards, and form text</h3>
+            </div>
+            <label>
+              Contact eyebrow
+              <input name="contactHeroKicker" type="text">
+            </label>
+          </div>
+          <label>
+            Contact hero title
+            <input name="contactHeroTitle" type="text">
+          </label>
+          <label class="wide-field">
+            Contact hero text
+            <textarea name="contactHeroText" rows="3"></textarea>
+          </label>
+          <label>
+            Phone card label
+            <input name="contactPhoneLabel" type="text">
+          </label>
+          <label>
+            Phone number
+            <input name="contactPhone" type="text">
+          </label>
+          <label class="wide-field">
+            Phone card text
+            <textarea name="contactPhoneText" rows="2"></textarea>
+          </label>
+          <label>
+            Email card label
+            <input name="contactEmailLabel" type="text">
+          </label>
+          <label>
+            Email address
+            <input name="contactEmail" type="email">
+          </label>
+          <label class="wide-field">
+            Email card text
+            <textarea name="contactEmailText" rows="2"></textarea>
+          </label>
+          <label>
+            Admin card label
+            <input name="contactAdminLabel" type="text">
+          </label>
+          <label>
+            Admin card title
+            <input name="contactAdminTitle" type="text">
+          </label>
+          <label class="wide-field">
+            Admin card text
+            <textarea name="contactAdminText" rows="2"></textarea>
+          </label>
+          <label>
+            Contact form title
+            <input name="contactFormTitle" type="text">
+          </label>
+          <label>
+            Name placeholder
+            <input name="contactNamePlaceholder" type="text">
+          </label>
+          <label>
+            Email placeholder
+            <input name="contactEmailPlaceholder" type="text">
+          </label>
+          <label>
+            Message placeholder
+            <input name="contactMessagePlaceholder" type="text">
+          </label>
+          <label>
+            Form button text
+            <input name="contactButton" type="text">
+          </label>
+
+          <div class="wide-field category-image-editor">
+            <div>
+              <p class="section-kicker">Returns</p>
+              <h3>Hero and policy cards</h3>
+            </div>
+            <label>
+              Returns eyebrow
+              <input name="returnsHeroKicker" type="text">
+            </label>
+          </div>
+          <label>
+            Returns hero title
+            <input name="returnsHeroTitle" type="text">
+          </label>
+          <label class="wide-field">
+            Returns hero text
+            <textarea name="returnsHeroText" rows="3"></textarea>
+          </label>
+          <label>
+            Returns card 1 title
+            <input name="returnsCard1Title" type="text">
+          </label>
+          <label class="wide-field">
+            Returns card 1 text
+            <textarea name="returnsCard1Text" rows="2"></textarea>
+          </label>
+          <label>
+            Returns card 2 title
+            <input name="returnsCard2Title" type="text">
+          </label>
+          <label class="wide-field">
+            Returns card 2 text
+            <textarea name="returnsCard2Text" rows="2"></textarea>
+          </label>
+          <label>
+            Returns card 3 title
+            <input name="returnsCard3Title" type="text">
+          </label>
+          <label class="wide-field">
+            Returns card 3 text
+            <textarea name="returnsCard3Text" rows="2"></textarea>
+          </label>
+        </form>
+      </section>
+
+      <section class="admin-panel" data-admin-section="categories">
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">Catalog structure</p>
+            <h2>Categories and subcategories</h2>
+          </div>
+        </div>
+        <div class="category-admin-layout">
+          <form class="category-form" data-category-form>
+            <h3>Add or update category</h3>
+            <label>
+              Category name
+              <input name="categoryName" type="text" placeholder="Bedding" required>
+            </label>
+            <button type="submit">Save category</button>
+          </form>
+
+          <form class="category-form" data-subcategory-form>
+            <h3>Add or update subcategory</h3>
+            <label>
+              Parent category
+              <select name="parentCategory" required data-parent-category-select></select>
+            </label>
+            <label>
+              Subcategory name
+              <input name="subcategoryName" type="text" placeholder="Comforters" required>
+            </label>
+            <button type="submit">Save subcategory</button>
+          </form>
+        </div>
+        <div class="category-manager" data-category-manager></div>
+      </section>
+
+      <section class="admin-panel" data-admin-section="coupons">
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">Promotions</p>
+            <h2>Coupons and subscribers</h2>
+          </div>
+          <button type="button" data-save-coupon>Create coupon</button>
+        </div>
+        <div class="coupon-admin-layout">
+          <form class="settings-form coupon-form" data-coupon-form>
+            <label>
+              Coupon code
+              <input name="code" type="text" placeholder="NEW1001" required>
+            </label>
+            <label>
+              Discount type
+              <select name="type">
+                <option value="fixed">$ amount off</option>
+                <option value="percent">% percent off</option>
+              </select>
+            </label>
+            <label>
+              Amount
+              <input name="amount" type="number" min="0" step="1" placeholder="10" required>
+            </label>
+            <label class="admin-checkbox">
+              <input name="active" type="checkbox" checked>
+              Active on website
+            </label>
+          </form>
+          <div class="coupon-list" data-coupon-list></div>
+          <div class="subscriber-panel">
+            <div class="admin-catalog-index-head">
+              <div>
+                <p class="section-kicker">Subscribers</p>
+                <h3>New customer signup emails</h3>
+              </div>
+              <button type="button" data-clear-subscribers>Clear subscribers</button>
+            </div>
+            <div class="subscriber-list" data-subscriber-list></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="admin-panel" data-admin-section="campaigns">
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">Marketing</p>
+            <h2>Email campaigns</h2>
+          </div>
+          <button type="button" data-save-campaign>Save campaign</button>
+        </div>
+        <div class="campaign-admin-layout">
+          <form class="settings-form campaign-form" data-campaign-form>
+            <label>
+              Campaign name
+              <input name="name" type="text" placeholder="New customer welcome" required>
+            </label>
+            <label>
+              Email subject
+              <input name="subject" type="text" placeholder="Welcome to Home Weavers" required>
+            </label>
+            <label>
+              Coupon code
+              <input name="coupon" type="text" placeholder="NEW1001">
+            </label>
+            <label>
+              Banner image URL
+              <input name="banner" type="text" placeholder="Paste image URL or choose a designed banner below">
+            </label>
+            <label class="wide-field">
+              Tell ChatGPT the occasion
+              <input name="theme" type="text" placeholder="Example: xmas, Christmas bedding sale, 4th of July, Diwali, fall sale">
+            </label>
+            <label>
+              Send to
+              <select name="audience">
+                <option value="all">All subscribers</option>
+                <option value="new">New subscribers</option>
+              </select>
+            </label>
+            <div class="wide-field rich-message-field">
+              <label for="campaign-message">Message</label>
+              <input name="message" type="hidden" required>
+              <div class="rich-toolbar" aria-label="Campaign message formatting">
+                <button type="button" data-rich-command="bold"><strong>B</strong></button>
+                <button type="button" data-rich-command="italic"><em>I</em></button>
+                <button type="button" data-rich-command="underline"><u>U</u></button>
+                <button type="button" data-rich-command="justifyLeft">Left</button>
+                <button type="button" data-rich-command="justifyCenter">Center</button>
+                <button type="button" data-rich-command="justifyRight">Right</button>
+                <select data-rich-font>
+                  <option value="Lato, Arial, sans-serif">Lato</option>
+                  <option value="Arial, sans-serif">Arial</option>
+                  <option value="Georgia, serif">Georgia</option>
+                  <option value="'Times New Roman', serif">Times</option>
+                </select>
+                <select data-rich-size>
+                  <option value="14px">Small</option>
+                  <option value="16px" selected>Normal</option>
+                  <option value="20px">Large</option>
+                  <option value="26px">Headline</option>
+                </select>
+                <input type="color" value="#3f332e" data-rich-color aria-label="Text color">
+              </div>
+              <div id="campaign-message" class="rich-editor" contenteditable="true" data-rich-editor data-placeholder="Write the email message customers will receive."></div>
+            </div>
+            <label>
+              Test email
+              <input name="testEmail" type="email" placeholder="nitish@homeweavers.net">
+            </label>
+          </form>
+          <div class="campaign-actions">
+            <button type="button" data-ai-campaign-message>Create message with ChatGPT</button>
+            <button type="button" data-ai-banner-options>Create 5 banner options</button>
+            <button type="button" data-ai-designed-banners>Ask ChatGPT for 5 banner designs</button>
+            <button type="button" data-send-test-campaign>Send test email later</button>
+            <button type="button" data-send-campaign>Send campaign later</button>
+          </div>
+          <div class="campaign-banner-options" data-campaign-banner-options></div>
+          <div class="campaign-summary">
+            <div>
+              <strong data-campaign-subscriber-count>0</strong>
+              <span>Subscribers available</span>
+            </div>
+            <div>
+              <strong data-campaign-count>0</strong>
+              <span>Saved campaigns</span>
+            </div>
+          </div>
+          <section class="email-preview-panel" aria-label="Email campaign preview">
+            <div class="admin-catalog-index-head">
+              <div>
+                <p class="section-kicker">Preview</p>
+                <h3>Customer email view</h3>
+              </div>
+            </div>
+            <div class="email-preview-card" data-email-preview></div>
+          </section>
+          <div class="campaign-list" data-campaign-list></div>
+        </div>
+      </section>
+
+      <section class="admin-panel" data-admin-section="products">
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">Catalog</p>
+            <h2>Products</h2>
+          </div>
+          <button type="button" data-new-product>Add product</button>
+        </div>
+        <div class="excel-tools">
+          <div>
+            <p class="section-kicker">Excel tools</p>
+            <h3>Bulk product and stock updates</h3>
+            <p>Download CSV files, edit them in Excel, then upload them back here.</p>
+          </div>
+          <div class="excel-actions">
+            <button type="button" data-download-products>Download products CSV</button>
+            <label class="excel-upload">
+              Upload products CSV
+              <input type="file" accept=".csv,text/csv" data-upload-products hidden>
+            </label>
+            <button type="button" data-download-stock>Download stock CSV</button>
+            <label class="excel-upload">
+              Upload stock CSV
+              <input type="file" accept=".csv,text/csv" data-upload-stock hidden>
+            </label>
+            <button type="button" data-download-variants>Download SKU CSV</button>
+            <label class="excel-upload">
+              Upload SKU CSV
+              <input type="file" accept=".csv,text/csv" data-upload-variants hidden>
+            </label>
+          </div>
+        </div>
+        <div class="admin-products" data-admin-products></div>
+      </section>
+
+      <section class="admin-panel product-editor-panel" id="product-editor" data-admin-section="products">
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">Editor</p>
+            <h2 data-editor-title>Edit product</h2>
+          </div>
+          <div class="panel-actions">
+            <button type="button" data-new-product>Add new product</button>
+            <button type="button" data-save-products>Save products</button>
+          </div>
+        </div>
+
+        <form class="product-form" data-product-form>
+          <input name="id" type="hidden">
+          <label>
+            Product name
+            <input name="name" type="text" required>
+          </label>
+          <label>
+            Brand
+            <input name="brand" type="text" required>
+          </label>
+          <label>
+            Category
+            <select name="category" required>
+              <option>Bedding</option>
+              <option>Bath</option>
+              <option>Rugs</option>
+              <option>Throws</option>
+              <option>Home Decor</option>
+              <option>Table Linens</option>
+            </select>
+          </label>
+          <label>
+            Subcategory
+            <select name="subcategory" required>
+              <option>Comforters</option>
+              <option>Quilts</option>
+              <option>Duvet Covers</option>
+              <option>Sheets</option>
+              <option>Blankets</option>
+              <option>Shower Curtains</option>
+              <option>Towels</option>
+              <option>Bath Rugs</option>
+              <option>Area Rugs</option>
+              <option>Runner Rugs</option>
+              <option>Decorative Pillows</option>
+              <option>Pillow Covers</option>
+              <option>Table Runners</option>
+              <option>Napkins</option>
+            </select>
+          </label>
+          <label class="wide-field">
+            Product search words
+            <textarea name="searchWords" rows="2" placeholder="comforter, queen bedding, soft quilt"></textarea>
+          </label>
+          <div class="wide-field ai-tools">
+            <div>
+              <p class="section-kicker">ChatGPT helper</p>
+              <h3>Create product copy</h3>
+              <p>Generates description and details for the default SKU using the product name, category, color, and image.</p>
+            </div>
+            <button type="button" data-ai-generate>Generate product description</button>
+          </div>
+          <label class="admin-checkbox">
+            <input name="active" type="checkbox" checked>
+            Product enabled on website
+          </label>
+          <div class="wide-field sku-variant-editor">
+            <div class="sku-variant-head">
+              <div>
+              <p class="section-kicker">SKU variants</p>
+              <h3>Unlimited SKU, color, size, stock, price, and photos</h3>
+              <p>Add one row for each sellable SKU. Select Default for the SKU that should show first on the website.</p>
+              </div>
+              <button type="button" data-add-variant>Add SKU</button>
+            </div>
+            <div class="sku-table-wrap">
+              <table class="sku-table">
+                <thead>
+	                  <tr>
+	                    <th>Default</th>
+	                    <th>SKU</th>
+                    <th>Size</th>
+                    <th>Color</th>
+                    <th>Sale price</th>
+                    <th>Compare</th>
+                    <th>Stock</th>
+                    <th>Main image</th>
+                    <th>Additional images</th>
+                    <th>Description</th>
+                    <th>Details</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody data-variant-rows></tbody>
+              </table>
+            </div>
+          </div>
+          <label>
+            Badge
+            <input name="badge" type="text" placeholder="Sale, New, + Colors">
+          </label>
+          <label class="admin-checkbox">
+            <input name="saleTag" type="checkbox">
+            Show on Sale page
+          </label>
+          <label>
+            Rating
+            <input name="rating" type="number" min="0" max="5" step="0.1">
+          </label>
+          <label>
+            Reviews
+            <input name="reviews" type="number" min="0" step="1">
+          </label>
+          <label class="admin-checkbox">
+            <input name="best" type="checkbox">
+            Best seller
+          </label>
+        </form>
+      </section>
+
+      <section class="admin-panel" data-admin-section="orders">
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">Orders</p>
+            <h2>Recent orders</h2>
+          </div>
+          <button type="button" data-clear-orders>Clear orders</button>
+        </div>
+        <div class="admin-orders" data-admin-orders></div>
+      </section>
+    </main>
+
+    <div class="admin-toast" data-admin-toast role="status"></div>
+    <script src="admin.js?v=cart-signin-note-v1"></script>
+  </body>
+</html>
