@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 600" role="img" aria-labelledby="title">
+  <title id="title">Checked table linens</title>
+  <rect width="720" height="600" fill="#f4ecdd"/>
+  <rect x="78" y="58" width="564" height="484" rx="16" fill="#fff8ec"/>
+  <path d="M78 138h564M78 218h564M78 298h564M78 378h564M78 458h564" stroke="#d0b58e" stroke-width="28" opacity=".62"/>
+  <path d="M158 58v484M238 58v484M318 58v484M398 58v484M478 58v484M558 58v484" stroke="#d0b58e" stroke-width="28" opacity=".62"/>
+  <path d="M78 178h564M78 418h564" stroke="#9b5039" stroke-width="16" opacity=".76"/>
+  <path d="M198 58v484M438 58v484" stroke="#284866" stroke-width="16" opacity=".76"/>
+  <path d="M80 542c110 28 222 29 337 3 84-19 158-19 223 0" stroke="#6c7758" stroke-width="18" fill="none" opacity=".64"/>
+  <circle cx="574" cy="126" r="34" fill="#a4563c" opacity=".9"/>
+  <circle cx="574" cy="126" r="18" fill="#f5d0a0" opacity=".9"/>
+</svg>

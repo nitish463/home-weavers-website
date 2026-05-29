@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" role="img" aria-labelledby="title">
+  <title id="title">Studio shelf of woven samples</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2e8d8"/>
+      <stop offset="1" stop-color="#b89572"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="720" fill="url(#bg)"/>
+  <rect x="100" y="104" width="800" height="70" rx="6" fill="#6a4e39"/>
+  <rect x="132" y="174" width="736" height="26" fill="#4e392a"/>
+  <rect x="100" y="394" width="800" height="70" rx="6" fill="#6a4e39"/>
+  <rect x="132" y="464" width="736" height="26" fill="#4e392a"/>
+  <g transform="translate(150 214)">
+    <path d="M0 0h120l28 146H-28z" fill="#d8bea0"/>
+    <path d="M22 0h76l15 146H7z" fill="#f3e4cb"/>
+    <path d="M4 48h140M-5 96h158" stroke="#284866" stroke-width="12"/>
+  </g>
+  <g transform="translate(330 224)">
+    <path d="M0 0h110l24 136H-24z" fill="#9b5039"/>
+    <path d="M20 0h70l14 136H6z" fill="#d6a06f"/>
+    <path d="M2 55h130" stroke="#fff3de" stroke-width="12"/>
+  </g>
+  <g transform="translate(500 204)">
+    <rect x="0" y="0" width="270" height="168" rx="10" fill="#efe2ce"/>
+    <path d="M0 38h270M0 86h270M0 134h270" stroke="#bda47d" stroke-width="18"/>
+    <path d="M48 0v168M116 0v168M184 0v168" stroke="#5e6f55" stroke-width="18"/>
+    <path d="M0 62h270" stroke="#284866" stroke-width="15"/>
+  </g>
+  <g transform="translate(162 502)">
+    <rect x="0" y="0" width="210" height="120" rx="10" fill="#ede0ca"/>
+    <path d="M0 32h210M0 72h210" stroke="#a4563c" stroke-width="16"/>
+    <path d="M42 0v120M96 0v120M150 0v120" stroke="#284866" stroke-width="12" opacity=".8"/>
+  </g>
+  <g transform="translate(430 494)">
+    <path d="M0 48c86-45 183-45 290 0v92H0z" fill="#ceb188"/>
+    <path d="M18 72c84 26 168 26 252 0M24 110c76 22 154 22 234 0" stroke="#fff4df" stroke-width="15" fill="none"/>
+    <path d="M76 34c44 46 92 82 144 110" stroke="#5e6f55" stroke-width="12" fill="none"/>
+  </g>
+  <path d="M0 82c180 38 336 34 469-11 167-57 343-42 531 45" stroke="#fff7e7" stroke-width="26" fill="none" opacity=".38"/>
+</svg>

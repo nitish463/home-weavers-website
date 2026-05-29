@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 600" role="img" aria-labelledby="title">
+  <title id="title">Layered rug texture</title>
+  <rect width="720" height="600" fill="#eee6d7"/>
+  <path d="M-40 90c190-38 334-31 476 23 120 45 233 45 344 1v390H-40z" fill="#d6b487"/>
+  <path d="M0 114h720M0 178h720M0 242h720M0 306h720M0 370h720M0 434h720M0 498h720" stroke="#f7efe0" stroke-width="18"/>
+  <path d="M0 145h720M0 274h720M0 403h720" stroke="#284866" stroke-width="34" opacity=".86"/>
+  <path d="M0 210h720M0 338h720M0 466h720" stroke="#9b5039" stroke-width="22" opacity=".86"/>
+  <path d="M70 0v600M156 0v600M242 0v600M328 0v600M414 0v600M500 0v600M586 0v600M672 0v600" stroke="#697a5b" stroke-width="13" opacity=".64"/>
+  <path d="M36 42c122 26 230 20 326-17 103-40 212-34 328 19" stroke="#fff9ee" stroke-width="18" fill="none" opacity=".7"/>
+</svg>

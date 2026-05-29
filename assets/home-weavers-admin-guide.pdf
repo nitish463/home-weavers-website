@@ -1,0 +1,442 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Length 2256 >>
+stream
+BT
+72 742 Td
+/F1 18 Tf
+(Home Weavers Admin Operating Guide) Tj
+0 -22 Td
+/F1 10 Tf
+( ) Tj
+0 -8 Td
+/F1 10.5 Tf
+(Use this guide when changing the Home Weavers storefront from the Admin area.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(The admin is organized into separate pages: Dashboard, Branding, Homepage, Content) Tj
+0 -14 Td
+/F1 10.5 Tf
+(Pages, Categories, Products, and Orders.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Click the admin navigation at the top to move between pages. Save each page after making) Tj
+0 -14 Td
+/F1 10.5 Tf
+(edits.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Current mockup note: this admin stores data in this browser for local testing. For the) Tj
+0 -14 Td
+/F1 10.5 Tf
+(live store, connect these controls to a database, secure login, checkout, and real order) Tj
+0 -14 Td
+/F1 10.5 Tf
+(processing.) Tj
+0 -14 Td
+0 -10 Td
+0 -10 Td
+/F1 18 Tf
+(Dashboard) Tj
+0 -22 Td
+/F1 10 Tf
+( ) Tj
+0 -8 Td
+/F1 10.5 Tf
+(Shows store health at a glance.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Orders received: total checkout orders created in the demo checkout.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Site visits: total storefront page loads in this browser.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Business generated: total dollar value from demo orders.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Products, total stock, and on sale: summary of the current catalog.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Order conversion: orders divided by visits. This is demo data until connected to real) Tj
+0 -14 Td
+/F1 10.5 Tf
+(analytics.) Tj
+0 -14 Td
+0 -10 Td
+0 -10 Td
+/F1 18 Tf
+(Branding Page) Tj
+0 -22 Td
+/F1 10 Tf
+( ) Tj
+0 -8 Td
+/F1 10.5 Tf
+(Brand name changes the text beside the logo in the storefront header.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Logo URL can point to an uploaded image or an online image URL.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Upload logo lets you choose a logo file from your computer for this local mockup.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Search placeholder changes the text inside the search bar.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Search words are global keywords that help guide what customers search for.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Promo bar changes the announcement message at the top of the website.) Tj
+0 -14 Td
+0 -10 Td
+0 -10 Td
+/F1 9 Tf
+0 -10 Td (Page 1) Tj
+ET
+endstream
+endobj
+3 0 obj
+<< /Length 2366 >>
+stream
+BT
+72 742 Td
+/F1 18 Tf
+(Homepage Page) Tj
+0 -22 Td
+/F1 10 Tf
+( ) Tj
+0 -8 Td
+/F1 10.5 Tf
+(Hero slides control the large rotating banner on the front page.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Each slide has eyebrow, title, text, image, button label, and button link.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Top banner controls the banner after category selection.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Second banner controls the banner after New Arrivals.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Use links like bedding.html#shop, sale.html#shop, new-arrivals.html#shop, or a specific) Tj
+0 -14 Td
+/F1 10.5 Tf
+(category page.) Tj
+0 -14 Td
+0 -10 Td
+0 -10 Td
+/F1 18 Tf
+(Content Pages) Tj
+0 -22 Td
+/F1 10 Tf
+( ) Tj
+0 -8 Td
+/F1 10.5 Tf
+(Controls homepage About text, About Us page hero, story copy, and embedded video.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(For YouTube videos, use an embed URL such as https://www.youtube.com/embed/VIDEO_ID.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Keep page copy short and customer-friendly. Long paragraphs can make the page feel heavy) Tj
+0 -14 Td
+/F1 10.5 Tf
+(on mobile.) Tj
+0 -14 Td
+0 -10 Td
+0 -10 Td
+/F1 18 Tf
+(Categories Page) Tj
+0 -22 Td
+/F1 10 Tf
+( ) Tj
+0 -8 Td
+/F1 10.5 Tf
+(Add, rename, delete, or update categories and subcategories.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Product dropdowns in the product editor use the categories and subcategories saved here.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(The product catalog in admin is grouped by category and then subcategory so large) Tj
+0 -14 Td
+/F1 10.5 Tf
+(catalogs stay manageable.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Deleting a category warns you how many products will be deleted from that category.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Deleting a subcategory warns you how many products will be deleted from that) Tj
+0 -14 Td
+/F1 10.5 Tf
+(subcategory.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Use this page before adding many products so the product editor has the correct category) Tj
+0 -14 Td
+/F1 10.5 Tf
+(list.) Tj
+0 -14 Td
+0 -10 Td
+0 -10 Td
+/F1 18 Tf
+(Products Page) Tj
+0 -22 Td
+/F1 10 Tf
+( ) Tj
+0 -8 Td
+/F1 10.5 Tf
+(Add product creates a new editable product record.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Edit changes product name, brand, category, subcategory, price, stock, sizes, colors,) Tj
+0 -14 Td
+/F1 10.5 Tf
+(description, details, photos, and search words.) Tj
+0 -14 Td
+/F1 9 Tf
+0 -10 Td (Page 2) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Length 2392 >>
+stream
+BT
+72 742 Td
+0 -10 Td
+/F1 10.5 Tf
+(Delete removes the product from the storefront catalog.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Show on Sale page makes the product appear on sale.html and displays the Sale tag.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Best seller lets the product rank higher when customers sort by best sellers.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Additional photos appear in the quick look gallery. Add one image URL per line.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Search words help the product show up for customer searches, for example queen) Tj
+0 -14 Td
+/F1 10.5 Tf
+(comforter, cotton quilt, bath towel.) Tj
+0 -14 Td
+0 -10 Td
+0 -10 Td
+/F1 18 Tf
+(Orders Page) Tj
+0 -22 Td
+/F1 10 Tf
+( ) Tj
+0 -8 Td
+/F1 10.5 Tf
+(Shows checkout orders created from the demo cart.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Each order includes customer email, delivery choice, product list, total, date, and) Tj
+0 -14 Td
+/F1 10.5 Tf
+(status.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Change status to New, Processing, Shipped, or Cancelled.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Clear orders removes the local demo order list.) Tj
+0 -14 Td
+0 -10 Td
+0 -10 Td
+/F1 18 Tf
+(Image Size Requirements) Tj
+0 -22 Td
+/F1 10 Tf
+( ) Tj
+0 -8 Td
+/F1 10.5 Tf
+(Logo: square image, 1000 x 1000 px recommended. JPG or PNG. Keep the logo centered with) Tj
+0 -14 Td
+/F1 10.5 Tf
+(padding so it does not crop.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Homepage hero slides: 2000 x 900 px recommended. Minimum 1600 x 720 px. Use wide) Tj
+0 -14 Td
+/F1 10.5 Tf
+(lifestyle photos. Keep important product detail near the center.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Top and second banners: 1800 x 700 px recommended. Minimum 1400 x 540 px. Wide) Tj
+0 -14 Td
+/F1 10.5 Tf
+(horizontal photos work best.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Category cards: 1200 x 900 px recommended. Use consistent 4:3 images so every category) Tj
+0 -14 Td
+/F1 10.5 Tf
+(frame stays even.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Product main image: 1200 x 1200 px recommended. Minimum 900 x 900 px. Square) Tj
+0 -14 Td
+/F1 10.5 Tf
+(product/lifestyle photos keep product cards aligned.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Product gallery images: 1200 x 1200 px recommended. Keep all images for one product the) Tj
+0 -14 Td
+/F1 10.5 Tf
+(same ratio.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(Social media strip: 1000 x 700 px recommended for each tile.) Tj
+0 -14 Td
+/F1 9 Tf
+0 -10 Td (Page 3) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Length 1222 >>
+stream
+BT
+72 742 Td
+0 -10 Td
+/F1 10.5 Tf
+(Avoid tiny, blurry, dark, or heavily cropped images. The website uses object-fit cover,) Tj
+0 -14 Td
+/F1 10.5 Tf
+(so edges can crop inside fixed frames.) Tj
+0 -14 Td
+0 -10 Td
+0 -10 Td
+/F1 18 Tf
+(Daily Operating Checklist) Tj
+0 -22 Td
+/F1 10 Tf
+( ) Tj
+0 -8 Td
+/F1 10.5 Tf
+(1. Check Dashboard for orders, visits, and revenue.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(2. Open Orders and update any order statuses.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(3. Open Categories before adding new product groups or subcategory pages.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(4. Open Products to add new arrivals, adjust stock, update pricing, or add Sale tags.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(5. Open Homepage to refresh hero slides and banners for promotions.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(6. Open Branding only when changing logo, promo bar, search placeholder, or global) Tj
+0 -14 Td
+/F1 10.5 Tf
+(keywords.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(7. Open Content Pages when updating About Us or the embedded brand video.) Tj
+0 -14 Td
+0 -10 Td
+/F1 10.5 Tf
+(8. Refresh the storefront after saving to confirm the customer-facing page looks right.) Tj
+0 -14 Td
+0 -10 Td
+0 -10 Td
+/F1 9 Tf
+0 -10 Td (Page 4) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 10 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 2 0 R >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 10 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 3 0 R >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 10 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 4 0 R >>
+endobj
+9 0 obj
+<< /Type /Page /Parent 10 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 5 0 R >>
+endobj
+10 0 obj
+<< /Type /Pages /Kids [6 0 R 7 0 R 8 0 R 9 0 R] /Count 4 >>
+endobj
+11 0 obj
+<< /Type /Catalog /Pages 10 0 R >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000002387 00000 n 
+0000004805 00000 n 
+0000007249 00000 n 
+0000008523 00000 n 
+0000008650 00000 n 
+0000008777 00000 n 
+0000008904 00000 n 
+0000009031 00000 n 
+0000009107 00000 n 
+trailer
+<< /Size 12 /Root 11 0 R >>
+startxref
+9158
+%%EOF

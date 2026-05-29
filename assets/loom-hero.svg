@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Sunlit weaving studio</title>
+  <desc id="desc">A warm studio scene with a loom, woven textiles, yarn cones, and afternoon light.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eee2cd"/>
+      <stop offset="0.55" stop-color="#c7af8f"/>
+      <stop offset="1" stop-color="#7a654f"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8d7258"/>
+      <stop offset="1" stop-color="#4d3a2f"/>
+    </linearGradient>
+    <pattern id="warp" width="28" height="28" patternUnits="userSpaceOnUse">
+      <rect width="28" height="28" fill="#cfa781"/>
+      <path d="M0 4h28M0 15h28M0 26h28" stroke="#efe2ce" stroke-width="3" opacity=".72"/>
+      <path d="M6 0v28M18 0v28" stroke="#7e8a62" stroke-width="5" opacity=".78"/>
+    </pattern>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#wall)"/>
+  <path d="M0 675c250-60 518-68 804-24 280 43 545 39 796-11v360H0z" fill="url(#floor)"/>
+  <path d="M1190 0h410v1000h-410z" fill="#ead9bd" opacity=".34"/>
+  <path d="M1233 0 733 1000h-118L1115 0zM1443 0 943 1000h-82L1362 0z" fill="#fff8e8" opacity=".22"/>
+  <ellipse cx="1040" cy="780" rx="430" ry="95" fill="#2d251f" opacity=".24" filter="url(#soft)"/>
+  <g transform="translate(420 210)">
+    <rect x="0" y="35" width="720" height="42" rx="6" fill="#5b432f"/>
+    <rect x="48" y="76" width="34" height="570" rx="8" fill="#4d3828"/>
+    <rect x="638" y="76" width="34" height="570" rx="8" fill="#4d3828"/>
+    <rect x="92" y="128" width="536" height="350" fill="#ead7bf"/>
+    <rect x="92" y="128" width="536" height="350" fill="url(#warp)" opacity=".94"/>
+    <path d="M92 222h536M92 322h536M92 422h536" stroke="#263f55" stroke-width="22" opacity=".72"/>
+    <path d="M92 274h536M92 378h536" stroke="#9b5039" stroke-width="16" opacity=".82"/>
+    <rect x="24" y="502" width="672" height="36" rx="6" fill="#5b432f"/>
+    <path d="M122 538 38 740M610 538l87 202" stroke="#4d3828" stroke-width="34" stroke-linecap="round"/>
+    <rect x="186" y="570" width="348" height="52" rx="10" fill="#6a4e39"/>
+    <path d="M180 622c84 42 230 57 359 0v78c-126 53-272 42-359-2z" fill="#dbc09a"/>
+    <path d="M207 650c66 24 196 30 304 2" stroke="#7a885e" stroke-width="10" fill="none"/>
+    <path d="M205 684c72 25 198 31 306 3" stroke="#284866" stroke-width="10" fill="none"/>
+  </g>
+  <g transform="translate(120 620)">
+    <path d="M0 128c136-46 260-50 374-13 34 11 40 52 8 68-116 57-246 54-390 10-42-13-33-53 8-65z" fill="#d9b98c"/>
+    <path d="M38 132c110 25 219 25 328-1M64 170c91 17 184 17 279-3" stroke="#86513d" stroke-width="12" fill="none"/>
+    <path d="M90 104c54 46 105 76 154 92M176 91c54 49 110 81 166 97" stroke="#516a58" stroke-width="9" fill="none" opacity=".8"/>
+  </g>
+  <g transform="translate(1180 650)">
+    <ellipse cx="130" cy="156" rx="138" ry="35" fill="#2f261e" opacity=".18"/>
+    <path d="M54 10h122l34 180H20z" fill="#bd6f48"/>
+    <path d="M76 0h80l20 190H56z" fill="#e4ba83"/>
+    <path d="M20 72h190M30 127h170" stroke="#284866" stroke-width="14" opacity=".72"/>
+    <path d="M65 34h104" stroke="#fbf1dd" stroke-width="11" opacity=".8"/>
+  </g>
+  <g opacity=".38" fill="none" stroke="#fff6df" stroke-width="2">
+    <path d="M0 718c315-76 597-73 846 7 205 66 456 54 754-38"/>
+    <path d="M0 760c332-70 614-58 845 36 202 82 453 75 755-21"/>
+  </g>
+</svg>
